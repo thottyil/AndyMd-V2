@@ -1714,16 +1714,11 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ╰❒ !sound70
 
 ╭─❒ 「 TqTo 」 
-│○ My God
-│○ My Parents
-│○ Fatih A.
-│○ Ferdi
-│○ DikaArdnt
-│○ Mhankbarbar
-│○ Nurutomo
-│○ Rashid
-│○ ZeeoneOfc
-│○ Penyedia Module
+│○ jonathan
+│○ zwing maxi
+│○ andymrlit (creator)
+│○ kimberly
+│○ sad boy
 ╰❒ And All Support
     `
 }
@@ -1771,8 +1766,8 @@ Goodbye`
 exports.source = () =>{
 return`*------「 SOURCE CODE 」 ------*
 
-Base : https://github.com/DikaArdnt/Hisoka-Morou
-Recode : https://youtube.com/playlist?list=PLFCglBzFPHG7vSQaa9S3P8yfla_d9w-2-
+Base : https://github.com/andymrlit/AndyMd-V2
+Recode : created by andymrlit haitian boy
 `
 }
 exports.tos = (ownernomer) => {
