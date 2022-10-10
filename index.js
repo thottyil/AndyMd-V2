@@ -1977,12 +1977,13 @@ break
 				var ini_anu =`Hi ${user.name}
 
 ╭─❒ 「 𝙖𝙣𝙙𝙮 𝙗𝙤𝙩 𝙢𝙙 𝙫2 」 
-├ 𝙘𝙧𝙚𝙖𝙩𝙤𝙧 :  @${ownernya.split('@')[0]}
+├ 𝙘𝙧𝙚𝙖𝙩𝙤𝙧 :  𝙖𝙣𝙙𝙮𝙢𝙧𝙡𝙞𝙩 @50941411147
 ├ 𝙥𝙤𝙬𝙚𝙧𝙚𝙙  : @${ini_mark.split('@')[0]}
 ├ 𝙥𝙧𝙚𝙛𝙞𝙭 :   ${prefix}
 ├ 𝙩𝙤𝙩𝙖𝙡 𝙝𝙞𝙩 : ${hitall}
 ├ 𝙨𝙥𝙚𝙚𝙙 : ${latensii.toFixed(4)} Second
 ├ 𝙢𝙚𝙢𝙤𝙧𝙮 𝙪𝙨𝙚𝙙 : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
+ |-𝙨𝙘𝙧𝙞𝙥𝙩 : 𝙝𝙩𝙩𝙥𝙨:𝙜𝙞𝙩𝙝𝙪𝙗.𝙘𝙤𝙢/𝙖𝙣𝙙𝙮𝙢𝙧𝙡𝙞𝙩
 ├ 𝙝𝙤𝙨𝙩𝙣𝙖𝙢𝙚 : ${os.hostname()}
 ├ 𝙥𝙡𝙖𝙩𝙛𝙤𝙧𝙢 : ${os.platform()}
 ├ 𝙥𝙧𝙞𝙫𝙖𝙩𝙚 𝙘𝙝𝙖𝙩 : ${(Object.keys(db.data.chats).filter(v => v.endsWith('@s.whatsapp.net')).map(v => v).length)}
@@ -1991,28 +1992,28 @@ break
 ├ 𝙪𝙨𝙚𝙧 𝙞𝙣 𝙙𝙖𝙩𝙖𝙗𝙖𝙨𝙚 : ${Object.keys(global.db.data.users).length} Users
 ├ 𝙪𝙨𝙚𝙧 𝙧𝙚𝙜𝙞𝙨𝙩𝙚𝙧𝙚𝙙 : ${(Object.values(global.db.data.users).filter(user => user.registered == true).length)} Users
 ├ 𝙪𝙨𝙚𝙧𝙙 𝙗𝙖𝙣𝙣𝙚𝙙 : ${(Object.values(global.db.data.users).filter(user => user.banned == true).length)} Users
-├ User Blockir : ${goblock == undefined ? '0' : goblock.length} Users
+├ 𝙪𝙨𝙚𝙧 𝙗𝙡𝙤𝙘𝙠𝙞𝙧 : ${goblock == undefined ? '0' : goblock.length} Users
 ╰❒ 𝙧𝙪𝙣𝙩𝙞𝙢𝙚 : ${runtime(process.uptime())}
 
-╭─❒ 「 Date Info 」 
-├ Masehi : ${week}, ${date}
-├ Hijriah : ${dateIslamic}
+╭─❒ 「 𝙖𝙣𝙙𝙮𝙢𝙧𝙡𝙞𝙩 」 
+├ 𝙢𝙖𝙨𝙚𝙝𝙞 : ${week}, ${date}
+├ 𝙝𝙚𝙪𝙧𝙚 : ${dateIslamic}
 ╰❒
 
-╭─❒ 「 User Info 」 
-├ Register: ${user.registered ? `✅\n├ Name : ${user.name}\n├ Age : ${user.age} years\n├ Gender : ${user.gender}\n├ Registered on : ${tanggal(user.regTime)}` : '❌'}
-├ Bio : ${bio ? bio : '-'}
-├ Nomor : @${m.sender.split('@')[0]}
-├ Limit : ${limit} limit
-├ XP : ${exp}
-├ Premium : ${user.premium ? '✅' : '❌'}
-├ Me : ${m.key.fromMe ? 'True' : 'False'}
-╰❒ Owner : ${isCreator ? 'True' : `False`}
+╭─❒ 「 𝙞𝙣𝙛𝙤 𝙪𝙨𝙚𝙧 」 
+├ 𝙧𝙚𝙜𝙞𝙨𝙩𝙚𝙧: ${user.registered ? `✅\n├ 𝙣𝙖𝙢𝙚 : ${user.name}\n├ 𝙖𝙜𝙚 : ${user.age} years\n├ 𝙜𝙚𝙣𝙙𝙚𝙧𝙨 : ${user.gender}\n├ 𝙧𝙚𝙜𝙞𝙨𝙩𝙚𝙧𝙚𝙙 𝙤𝙣 : ${tanggal(user.regTime)}` : '❌'}
+├ 𝙗𝙞𝙤 : ${bio ? bio : '-'}
+├ 𝙣𝙤𝙢𝙤𝙧 : @${m.sender.split('@')[0]}
+├ 𝙡𝙞𝙢𝙞𝙩 : ${limit} limit
+├ 𝙭𝙥 : ${exp}
+├ 𝙥𝙧𝙚𝙢𝙞𝙪𝙢 : ${user.premium ? '✅' : '❌'}
+├ 𝙢𝙚 : ${m.key.fromMe ? 'True' : 'False'}
+╰❒ 𝙤𝙬𝙣𝙚𝙧 : ${isCreator ? 'True' : `False`}
 `	
 const buttojns = [
-  {buttonId: '.command', buttonText: {displayText: '📖 List Menu'}, type: 1},
-  {buttonId: '.owner', buttonText: {displayText: '🙍‍♂️ Owner'}, type: 1},
-  {buttonId: '.register', buttonText: {displayText: 'register ⭐'}, type: 1} 
+  {buttonId: '.command', buttonText: {displayText: '𝙡𝙞𝙨𝙩 𝙢𝙚𝙣𝙪 🙂'}, type: 1},
+  {buttonId: '.owner', buttonText: {displayText: '𝙖𝙣𝙙𝙮𝙢𝙧𝙡𝙞𝙩 ❤️'}, type: 1},
+  {buttonId: '.register', buttonText: {displayText: '𝙧𝙚𝙜𝙞𝙨𝙩𝙚𝙧 ⭐'}, type: 1} 
 ]			
 					if(typemenu == 'document'){
 						if(db.data.users[m.sender].registered){
@@ -2021,8 +2022,8 @@ const buttojns = [
 					}
 					if(typemenu == 'templateLocation'){
 						await alpha.sendButLoc(m.chat,  lang.menunya(salam, pushname, botname) , '©' + ownername, pp_bot, [
-{buttonId: `.owner` , buttonText: {displayText: '🙍‍♂️ Owner'}, type: 1},
-{buttonId: `.register` , buttonText: {displayText: 'register 🇫🇷'}, type: 1}
+{buttonId: `.owner` , buttonText: {displayText: '𝙖𝙣𝙙𝙮𝙢𝙧𝙡𝙞𝙩 😎'}, type: 1},
+{buttonId: `.register` , buttonText: {displayText: '𝙧𝙚𝙜𝙞𝙨𝙩𝙚𝙧 🤞'}, type: 1}
 ], {userJid: m.chat, quoted: m})
 						}
 						if(typemenu == 'templateTenor'){
@@ -2035,14 +2036,14 @@ const buttojns = [
 							alpha.sendKatalog2(m.chat, "ALL MENU BOT", lang.listMenu(time, salam, pushname, prefix), pp_bot, {quoted:m})
 							}
 						if(typemenu == 'list'){
-							alpha.sendListMenu(m.chat, `╭─⬣「 _𝗜𝗡𝗙𝗢 𝗨𝗦𝗘𝗥_ 」⬣\n│  𝗡𝗔𝗠𝗘 : ${pushname}\n│  𝗡𝗨𝗠𝗕𝗘𝗥 : ${sender.split("@")[0]}\n│  *𝗦𝗧𝗔𝗧𝗨𝗦 : ${isCreator? ` Owner️ ${botname}` :`User ${botname}`}\n╰─⬣\n\n╭─⬣「 _𝗜𝗡𝗙𝗢 𝗕𝗢𝗧_ 」⬣\n│ 𝗣𝗥𝗘𝗙𝗜𝗫 :  ${prefix} \n│ 𝗡𝗔𝗠𝗘 : ${botname}\n│ 𝗢𝗪𝗡𝗘𝗥 : ${ownername}\n│ 𝗠𝗢𝗗𝗘 : ${alpha.public ? '𝗣𝗨𝗕𝗟𝗜𝗖 𝗠𝗢𝗗𝗘' : '𝗦𝗘𝗟𝗙 𝗠𝗢𝗗𝗘'}\n│ 𝗥𝗨𝗡𝗧𝗜𝗠𝗘* : ${runtime(process.uptime())}\n│ 𝗟𝗜𝗕 : 𝗕𝗔𝗜𝗟𝗘𝗬𝗦 𝗠𝗗@4.0.0\n╰─⬣\n\n╭─⬣「 _𝗜𝗡𝗗𝗢𝗡𝗘𝗦𝗜𝗔𝗡 𝗧𝗜𝗠𝗘_ 」⬣\n│ *𝗪𝗜𝗕* : ${time}\n│ 𝗪𝗜𝗧𝗔 : ${wita}\n│ 𝗪𝗜𝗧 : ${wit}  \n╰─⬣`, `© ${ownername}`, `𝗦𝗔𝗞 𝗚𝗘𝗡𝗟𝗔 ${salam} ${pushname} ☺️`, `𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘`, {quoted:fgif})
+							alpha.sendListMenu(m.chat, `╭─⬣「 _𝙞𝙣𝙛𝙤 𝙪𝙨𝙚𝙧_ 」⬣\n│  𝙣𝙖𝙢𝙚 : ${pushname}\n│  𝙣𝙪𝙢𝙗𝙚𝙧 : ${sender.split("@")[0]}\n│  *𝙨𝙩𝙖𝙩𝙪𝙨 : ${isCreator? ` Owner️ ${botname}` :`User ${botname}`}\n╰─⬣\n\n╭─⬣「 _𝙞𝙣𝙛𝙤 𝙗𝙤𝙩_ 」⬣\n│ 𝙥𝙧𝙚𝙛𝙞𝙭 :  ${prefix} \n│ 𝙣𝙖𝙢𝙚 : ${botname}\n│ 𝙤𝙬𝙣𝙚𝙧 : ${ownername}\n│ 𝙢𝙤𝙙𝙚 : ${alpha.public ? '𝙥𝙪𝙗𝙡𝙞𝙘 𝙢𝙤𝙙𝙚' : '𝙨𝙚𝙡𝙛 𝙢𝙤𝙙𝙚'}\n│ 𝙧𝙪𝙣𝙩𝙞𝙢𝙚* : ${runtime(process.uptime())}\n│ 𝙡𝙞𝙗 : 𝙗𝙖𝙞𝙡𝙚𝙮𝙨 𝙢𝙙@4.0.0\n |𝙨𝙘𝙧𝙞𝙥𝙩 : 𝙗𝙮 𝙖𝙣𝙙𝙮 \n╰─⬣\n\n╭─⬣「 _𝙝𝙖𝙞𝙩𝙞 𝙩𝙞𝙢𝙚_ 」⬣\n│ *𝙬𝙞𝙗* : ${time}\n│ 𝙬𝙞𝙩𝙖 : ${wita}\n│ 𝙬𝙞𝙩 : ${wit}  \n╰─⬣`, `© ${ownername}`, `𝙨𝙖𝙠 𝙜𝙚𝙣𝙡𝙖 ${salam} ${pushname} ☺️`, `𝙘𝙡𝙞𝙘𝙠 𝙝𝙚𝙧𝙚`, {quoted:fgif})
 						}
 					}
 					break    
 	case 'allmenu':{
 		await alpha.sendButLoc(m.chat,  `Hai kak ${pushname} 👋, saya *${botname}* ` + '\n\n' + lang.listMenu(time, salam, pushname, prefix)  , '©' + ownername, pp_bot, [
-{buttonId: `.owner` , buttonText: {displayText: '🙍‍♂️ 𝗢𝗪𝗡𝗘𝗥'}, type: 1},
-{buttonId: `.register` , buttonText: {displayText: '𝗥𝗘𝗚𝗜𝗦𝗧𝗘𝗥 🇫🇷'}, type: 1}
+{buttonId: `.owner` , buttonText: {displayText: '𝙖𝙣𝙙𝙮𝙢𝙧𝙡𝙞𝙩 😋'}, type: 1},
+{buttonId: `.register` , buttonText: {displayText: '𝙧𝙚𝙜𝙞𝙨𝙩𝙚𝙧 🇫🇷'}, type: 1}
 ], {userJid: m.chat, quoted: m})
 			}
 	break   
