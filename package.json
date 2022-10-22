@@ -1,11 +1,11 @@
 {
   "name": "Alphabot-Md",
   "version": "1.1.6",
-  "description": "Alphabot Md, Only update in YouTube ZEEONE OFC",
-  "main": "zeeone.js",
+  "description": "Alphabot Md, by andymrlit",
+  "main": "maxiii.js",
   "license": "MIT",
   "scripts": {
-    "start": "node zeeone.js"
+    "start": "node maxiii.js"
    },
   "keywords": [
     "whatsapp",
@@ -14,7 +14,7 @@
     "base",
     "baileys-md"
   ],
-  "author": "ZeeoneOfc",
+  "author": "andyOfc",
   "license": "MIT",
   "dependencies": {
     "@adiwajshing/baileys": "^4.4.0",
