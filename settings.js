@@ -13,43 +13,43 @@ global.APIKeys = {
 }
 
 // setting 
-global.autoread = false // auto read message
+global.autoread = true // auto read message
 global.autobio = true 
-global.userRegister = true 
+global.userRegister = false
 global.autoblok212 = false //ubah jadi true biar nmr 212 di blok sama bot
 
 //language
 //Available in indonesia , english & spanyol 
 //You can request others language 
-global.language = indonesia  //change indonesia to english if you don't understand the language used by the bot
+global.language = english  //change indonesia to english if you don't understand the language used by the bot
 
 
 // Other
 // Other
-global.botname = "Andy-Md V2ོ" //namabot kalian
-global.ownername= "ᴹᴿ᭄ AndyOfcོ ×፝֟͜×" //nama kalian
-global.myweb ="https://api.zeeoneofc.xyz" //bebas asal jan hapus
-global.youtube = "https://instagram.com/c/andy_mr_lit" //bebas asal jan hapus
-global.myweb2 = "https://linktr.ee/andymrlit" //bebas
-global.email = "andysebastien14@gmail.com" //bebas
-global.region = "HAÏTI" //bebas
+global.botname = "Maxii botོ" //namabot kalian
+global.ownername= "ᴹᴿ᭄ maxiiOfcོ ×፝֟͜×" //nama kalian
+global.myweb ="https://api.c.xyz" //bebas asal jan hapus
+global.youtube = "https://instagram.com/andy_mr_lit" //bebas asal jan hapus
+global.myweb2 = "https://linktr.ee/maxiofc" //bebas
+global.email = "maxiiihaitian@gmail.com" //bebas
+global.region = "Indonesia" //bebas
 global.timezone = 'Asia/Jakarta' //  timezone wib
-global.premium = ['50941411147'] //premium user
-global.owner = ["50941411147","50943672445"] //ganti agar fitur owner bisa di gunakan
-global.ownernomer = "50941411147" // nomor wa kalian
+global.premium = ['50947477839'] //premium user
+global.owner = ["50947477839","50947477839"] //ganti agar fitur owner bisa di gunakan
+global.ownernomer = "50947477839" // nomor wa kalian
 global.ownernomerr = "+50941411147" //nmr wa kalian
 global.thumbnail = "./image/lol.jpg" // ini lol.jpg adalah nama foto di folder image. untuk foto bot
 global.donasi = "./image/donasi.jpg" // foto donasi di folder image
 global.background_welcome="https://telegra.ph/file/90a931648de597820bc08.jpg" // maks size 30kb, agar welcome image nya tdk delay
 global.thumbGif = 'https://telegra.ph/file/e90bef3779d3c5812a5d1.mp4'
-global.packname = '© ANDY MD V2ོ' //sticker wm ubah
-global.author = 'creator andymrlit' //sticker wm ganti nama kalian
+global.packname = '© maxyboy' //sticker wm ubah
+global.author = 'created by maxy' //sticker wm ganti nama kalian
 global.sessionName = 'session'
 global.typemenu = 'document'
 global.multiplier = 69
 global.limitawal = {
-    premium: "10000",
-    free: 100
+    premium: "500",
+    free: 25
 }
 
 global.adventureRPG = 'https://telegra.ph/file/ff94536d69e0f4f3e7b54.jpg'

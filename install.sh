@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-pkg install imagemagick git nodejs ffmpeg libwebp mc nano yarn
+pkg install imagemagick git nodejs ffmpeg libwebp mc nano yarn pm2
 rm -rf node_modules 
 yarn
 rm -rf session.json 
