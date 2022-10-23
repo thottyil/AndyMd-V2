@@ -60,5 +60,19 @@
     "util": "^0.12.4",
     "xfarr-api": "^1.0.2",
     "yargs": "^17.2.1"
-  }
+ 
+  },
+  "directories": {
+    "lib": "lib",
+    "src": "src"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andymrlit/AndyMd-V2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andymrlit/AndyMd-V2/issues"
+  },
+  "homepage": "https://github.com/andymrlit/AndyMd-V2#readme"
 }
