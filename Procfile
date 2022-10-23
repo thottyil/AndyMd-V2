@@ -1,1 +1,1 @@
-worker: npm i -g pm2 && pm2 start maxiii.js && pm2 save && pm2 logs
+worker: node . --db 'mongodb+srv://maxiiiii:yooo6916@cluster0.qsehi0c.mongodb.net/?retryWrites=true&w=majority'
