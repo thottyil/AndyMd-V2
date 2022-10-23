@@ -2438,15 +2438,9 @@ return`╭─❒ 「 Random Cewe 」
 exports.tqto = () =>{
 	return`╭─❒ 「 TqTo 」 
 │○ My God
-│○ My Parents
-│○ Fatih A.
-│○ Ferdi
-│○ DikaArdnt
-│○ Mhankbarbar
-│○ Nurutomo
-│○ Rashid
-│○ ZeeoneOfc
-│○ Penyedia Module
+│○ sad boy 
+│○ maxiii YT
+│○ andymrlit
 ╰❒ And All Support
 `
 }
