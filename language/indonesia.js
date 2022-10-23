@@ -30,7 +30,7 @@ exports.needReg = (a, b, c) =>{
 Gini : #daftar nama|umur|gender|hobi
 Contoh : #daftar ${a}|18|cowo|Game
 
-🇺🇲 Please register first
+🇺🇲 Veuillez d'abord vous inscrire
 
 Like this : #register name|age|gender|hobby
 Example : #register ${a}|18|male|Games`
@@ -47,13 +47,13 @@ exports.NoseriOk = () =>{
 exports.ExReg = (c) =>{
 	return`🇲🇨 Gunakan tanda "|" sebagai pembatas
 
-Gini : #daftar nama|umur|gender|hobi
+Gini : #liste de noms|âge|sexe|hobbiesi
 
-Contoh : #daftar ${a}|18|cowo|Game
+Contoh : #list ${a}|18|garçon|Jeu
 
 
 
-🇺🇲 Use the "|" sign as a barrier
+🇺🇲 Utilisez le "|" signe comme une barrière
 
 
 Like this : #register name|age|gender|hobby
@@ -61,170 +61,170 @@ Like this : #register name|age|gender|hobby
 Example : #register ${a}|18|male|Games`
 	}
 exports.DoneReg = () =>{
-	return`Kamu sudah terdaftar di database`
+	return`Vous êtes déjà inscrit dans la base de données`
 	}
 exports.UmurReg = () =>{
-	return`Umur harus berupa angka`
+	return`L'âge doit être un nombre`
 	}
 exports.NamaReg = () =>{
-	return`Nama kamu panjang banget, gunakan nama awal saja`
+	return`Votre nom est très long, utilisez simplement votre prénom`
 	}
 exports.HobiReg = () =>{
-	return`Hobi kamu banyak banget, cukup 1 atau 2 hobi saja`
+	return`Vous avez beaucoup de loisirs, juste 1 ou 2 loisirs`
 	}
 exports.RegReg = (a,b,c,d,e,f,g,h,i) =>{
-	return`╭─「 *VERIFIKASI BERHASIL* 」
-│\`\`\`Verifikasi Sukses Dengan\`\`\` 
+	return`╭─「 *VÉRIFICATION RÉUSSIR* 」
+│\`\`\`Vérification réussie avec\`\`\` 
 │
 │\`\`\`SN: ${a}\`\`\`
-│\`\`\`Pada : ${b}\`\`\`
-│\`\`\`Nama : ${c}\`\`\`
-│\`\`\`Umur : ${d}\`\`\`
-│\`\`\`Gender : ${e}\`\`\`
-│\`\`\`Nomor : @${f}\`\`\`
-│\`\`\`Untuk menggunakan bot silahkan \`\`\`
-│\`\`\`Kirim perintah ${g}menu\`\`\`
-│\`\`\`atau ${h}allmenu\`\`\`
+│\`\`\`Sur : ${b}\`\`\`
+│\`\`\`Non : ${c}\`\`\`
+│\`\`\`Âge : ${d}\`\`\`
+│\`\`\`Le genre : ${e}\`\`\`
+│\`\`\`Numéro : @${f}\`\`\`
+│\`\`\`Pour utiliser des robots s'il vous plaît \`\`\`
+│\`\`\`Envoyer la commande ${g}menu\`\`\`
+│\`\`\`ou ${h}menu général\`\`\`
 │
-│\`\`\`\Total : ${i} Users\`\`\`
+│\`\`\`\Total : ${i} Utilisateurs\`\`\`
 ╰─────────────────────`
 	}
 exports.genderReg = (a) =>{
-	return`Pilih salah satu ( cewe / cowo)\n\n${a}`
+	return`Sélectionnez-en un ( fille / garçon)\n\n${a}`
 	}
 exports.UmurXReg = () =>{
-	return`Umur kamu terlalu tua, bukannya mati ehh malah main bot`
+	return`Vous êtes trop vieux, au lieu de mourir, hein, jouer à bot`
 	}
 exports.firstChat = (a, b, c) =>{
-	return`Selamat ${a} ${b} 🤗, saya adalah ${c} yaitu bot whatsapp. Ada yang bisa ${c} bantu?`
+	return`Heureux ${a} ${b} 🤗, le mien est ${c} c'est-à-dire le bot WhatsApp. Quelqu'un peut-il aider ${c} ?
 	}
 exports.StartAbsen = () =>{
-	return`Mulai Absen`
+	return`Commencer absent`
 	}
 exports.AddstikOk = (q, a, b, prefix, command) =>{
-	return`Sukses Menambahkan ${q} Ke Dalam Database ${a}\n\nCek dengan cara ${prefix}${b}`
+	return`Ajout réussi ${q} Ke Dans la base de données ${a}\n\nCek dans un sens ${prefix}${b}`
 	}
 	
 exports.AddstikOk_ = (a,b) =>{
-	return`Durasi ${a} detik, yaitu durasi maksimal ${b} yang bisa bot simpan ke dalam database`
+	return`La durée de ${a} secondes, qui est la durée maximale de ${b} que le bot peut enregistrer dans la base de données`
 	}
 exports.Addvn = () =>{
-	return`Tunggu sebentar, saya akan mencoba untuk mengupload media ini ke database`
+	return`Attendez une minute, je vais essayer de télécharger ce média dans la base de données`
 	}
 	
 exports.ListStik = (a) =>{
-	return`_Untuk mengambil ${a} silahkan kirim pesan sesuai dengan list ${a} yang ada di atas_`
+	return`_Pour prendre ${a}, veuillez envoyer un message selon la liste ${a} ci-dessus_`
 	}
 exports.noAbsen = () =>{
-return `❌ Tidak ada absen berlangsung di group ini !`
+return `❌ Aucune absence n'a lieu dans ce groupe !`
 }
 exports.StartAbsen = () =>{
-	return`Mulai Absen`
+	return`Commencer absent`
 	}
 exports.DahAbsen = () =>{
-	return`Kamu sudah absen`
-	}
+	return`Tu es absent
+}
 exports.DelAbsen = () =>{
-	return`✅ Berhasil menghapus absen di group ini`
+	return`✅ Absent de ce groupe supprimé avec succès`
 	}
 exports.adaAbsen = () =>{
-	return`Masih ada sesi absen di group ini !`
+	return`Il y a encore des sessions absentes dans ce groupe !`
 	}
 exports.SAbsen = () =>{
-	return`Absen dimulai`
+	return`L'absence commence`
 	}
 //
 exports.SetCmd = (prefix, command) =>{
-	return`Reply stiker!!\nExample : ${prefix + command} menu\n\n\n*Note : Tidak dapat disertai Prefix!!*`
+	return`Autocollant de réponse !!\nExemple : menu ${prefix + command}\n\n\n*Remarque : impossible d'inclure le préfixe !!*`
 	}
 exports.CmdApa = () =>{
-	return`Untuk Command Apa?`
+	return`Pour quelle commande ??`
 	}
 exports.UCmd = () =>{
-	return`Anda tidak memiliki izin untuk mengubah perintah stiker ini`
+	return`Vous n'êtes pas autorisé à modifier cette commande d'autocollants`
 	}
 exports.HashCmd = () =>{
-	return`Tidak ada hash`
+	return`Il n'y a pas de hachage`
 	}
 exports.DelCmd = () =>{
-	return`✅ Sticker cmd telah di hapus`
+	return`✅ L'autocollant cmd a été supprimé`
 	}
 exports.LockCmd = () =>{
-	return`Reply pesan`
+	return`Message de réponse`
 	}
 exports.NoCmd = () =>{
-	return`Hash tidak ditemukan di database`
+	return`Hachage introuvable dans la base de données`
 	}
 exports.ReplyMsg = () =>{
-	return`Reply Message Yang Ingin Disave Di Database`
+	return`Message de réponse que vous souhaitez enregistrer dans la base de données`
 	}
 exports.NoMsg = (prefix, command) =>{
-	return`Contoh : ${prefix + command} nama file`
+	return`Contoh : fichier nama ${prefix + command}`
 	}
 exports.AdMsg = (text) => {
-    return `'${text}' telah terdaftar di list pesan`
+    return `'${text}' a été enregistré dans la liste des messages`
 }
 exports.DoneMsg = (prefix, text) => {
-    return `Berhasil menambahkan pesan di list pesan sebagai '${text}'
+    return `Message ajouté avec succès dans la liste des messages en tant que '${text}'
     
-Akses dengan ${prefix}getmsg ${text}
-Lihat list Pesan Dengan ${prefix}listmsg`
+Accès avec ${prefix}getmsg ${text}
+Afficher la liste des messages avec ${prefix}listmsg`
 }
 exports.GetMsg = (prefix, command) => {
-    return `Example : ${prefix + command} file name\n\nLihat list pesan dengan ${prefix}listmsg`
+    return `Exemple : ${prefix + command} file name\n\nLihat list pesan dengan ${prefix}listmsg`
 }
 exports.NoInMsg = (text) => {
-    return `'${text}' tidak terdaftar di list pesan`
+    return `'${text}' non enregistré dans la liste des messages`
 }
 exports.DelMsg = (text) => {
-    return `Berhasil menghapus '${text}' dari list pesan`
+    return `'${text}' a bien été supprimé de la liste des messages`
 }
 
 exports.OnBef = () => {
-    return `Sudah di aktifkan sebelumnya`
+    return `Il a été activé avant`
 }
 exports.OffYaBef = () => {
-    return `Sudah di nonaktifkan sebelumnya`
+    return `Il a été désactivé avant`
 }
 exports.OkOn = (command) => {
-    return `${command} Berhasil Di Aktifkan !`
+    return `${command} Activé avec succès !`
 }
 exports.OffBef = (command) => {
-    return `${command} Berhasil Di Nonaktifkan !`
+    return `${command} Désactivé avec succès !`
 }
 exports.OkMute = () => {
-    return `Bot Telah Di Mute Di Group Ini`
+    return `Le bot a été mis en sourdine dans ce groupe`
 }
 exports.OkUnMute = () => {
-    return `Bot Berhasil Di UnMute`
+    return `Le bot a réussi à rétablir le son`
 }
 exports.OkUnBanC = () => {
-    return `Bot Berhasil Di unban chat`
+    return `Le bot a réussi à débloquer le chat`
 }
 exports.NoMute = () => {
-    return `Bot belum di ban dalam group ini`
+    return `Le bot n'a pas été banni dans ce groupe`
 }
 
 exports.NoMsgBot = () => {
-    return `Pesan tersebut bukan dikirim oleh bot!`
+    return `Le message n'a pas été envoyé par un bot !`
 }
 exports.ToimgErr = () => {
-    return `Maaf Saat Ini Belum Support Sticker Gif`
+    return `Désolé actuellement pas en charge Gif Sticker`
 }
 exports.NoToImg = (prefix, command) => {
-    return `Reply Sticker Dengan Caption *${prefix + command}*`
+    return `Autocollant de réponse avec Caption *${prefix + command}*`
 }
 exports.BotPublic = () => {
-    return `Sukses Ganti Ke Mode Public`
+    return `Changement réussi en mode public`
 }
 exports.BotSelf = () => {
-    return `Sukses Ganti Ke Mode Self\n\nUntuk mengubah ke mode public silahkan gunakan nomor bot`
+    return `Changement réussi en mode personnel\n\nPour passer en mode public, veuillez utiliser le numero du bot`
 }
 exports.NoToStik = (prefix, command) => {
-    return `Kirim/Reply Gambar/Video Dengan Caption ${prefix + command}\n\nDurasi Sticker Video 1-9 Detik`
+    return `Envoyer/répondre à une image/vidéo avec légende ${préfixe + commande}\n\nDurée de l'autocollant vidéo 1 à 9 secondes`
 }
 exports.NoPpBot = (prefix, command) => {
-    return `Kirim/Reply Image Dengan Caption ${prefix + command}`
+    return `envoyer/Reply Image avec Caption ${prefix + command}
 }
 exports.ToAud = (prefix, command) => {
     return `Kirim/Reply Video/Audio Yang Ingin Dijadikan Audio Dengan Caption ${prefix + command}`
@@ -2438,9 +2438,15 @@ return`╭─❒ 「 Random Cewe 」
 exports.tqto = () =>{
 	return`╭─❒ 「 TqTo 」 
 │○ My God
-│○ sad boy 
-│○ maxiii YT
-│○ andymrlit
+│○ My Parents
+│○ Fatih A.
+│○ Ferdi
+│○ DikaArdnt
+│○ Mhankbarbar
+│○ Nurutomo
+│○ Rashid
+│○ ZeeoneOfc
+│○ Penyedia Module
 ╰❒ And All Support
 `
 }
